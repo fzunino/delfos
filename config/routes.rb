@@ -1,4 +1,6 @@
 Delfos::Application.routes.draw do
+  resources :questions
+
   ActiveAdmin.routes(self)
 
   devise_for :users, ActiveAdmin::Devise.config
