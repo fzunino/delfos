@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120323185048) do
+ActiveRecord::Schema.define(:version => 20120323191722) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -27,6 +27,40 @@ ActiveRecord::Schema.define(:version => 20120323185048) do
   add_index "active_admin_comments", ["author_type", "author_id"], :name => "index_active_admin_comments_on_author_type_and_author_id"
   add_index "active_admin_comments", ["namespace"], :name => "index_active_admin_comments_on_namespace"
   add_index "active_admin_comments", ["resource_type", "resource_id"], :name => "index_admin_notes_on_resource_type_and_resource_id"
+
+  create_table "answers", :force => true do |t|
+    t.string   "body"
+    t.integer  "question_id", :null => false
+    t.integer  "user_id",     :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "answers", ["question_id"], :name => "index_answers_on_question_id"
+  add_index "answers", ["user_id"], :name => "index_answers_on_user_id"
+
+  create_table "questions", :force => true do |t|
+    t.string   "title",      :null => false
+    t.string   "body",       :null => false
+    t.integer  "user_id",    :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "questions", ["user_id"], :name => "index_questions_on_user_id"
+
+  create_table "questions_tags", :id => false, :force => true do |t|
+    t.integer "question_id", :null => false
+    t.integer "tag_id",      :null => false
+  end
+
+  add_index "questions_tags", ["question_id", "tag_id"], :name => "index_questions_tags_on_question_id_and_tag_id", :unique => true
+
+  create_table "tags", :force => true do |t|
+    t.string   "name",       :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
