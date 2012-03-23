@@ -1,0 +1,51 @@
+/* GET questions */
+	[
+
+		{	
+		title:"Question Title",
+		tags: ['ajax','jquery'],
+		user: 'zauber',
+		anwsers: 10,
+		created: 'dd/mm/YY'
+		},
+		{	
+		title:"Question Title",
+		tags: ['ajax','jquery'],
+		user: 'zauber',
+		anwsers: 10,
+		created: 'dd/mm/YY'
+		},
+		{	
+		title:"Question Title",
+		tags: ['ajax','jquery'],
+		user: 'zauber',
+		anwsers: 10,
+		created: 'dd/mm/YY'
+		} 
+	
+	]	
+
+
+
+
+/* GET questions/ID */
+
+{
+	question:{
+			id:'234',
+			title:'question title',
+			description:'question scaped html',
+			created:'dd/mm/YY',
+			user: 'newbieGuy',
+			tags:['tag1','tag2']
+			},
+	anwsers: [{
+			description:'Lorem ipsum',
+			user:'goodGuy',
+			'created':'dd/mm/YY'
+			}, {
+			description:'Lorem ipsum',
+			user:'goodGuy',
+			'created':'dd/mm/YY'
+			}]	
+}
