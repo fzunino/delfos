@@ -1,0 +1,95 @@
+<mockup version="1.0" skin="sketch" measuredW="945" measuredH="726" mockupW="690" mockupH="713">
+  <controls>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="255" y="102" w="690" h="582" measuredW="200" measuredH="157" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <position>left</position>
+        <text>Questions%0ATags%0AUnanswered</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Image" x="335" y="13" w="218" h="79" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::SubTitle" x="368" y="128" w="153" h="-1" measuredW="146" measuredH="33" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Question%20title</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::VSplitter" x="358" y="155" w="563" h="-1" measuredW="100" measuredH="12" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Paragraph" x="424" y="176" w="394" h="52" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Question%20description%20Question%20description%20Question%20descriptionQuestion%20description%0AQuestion%20descriptionQuestion%20descriptionQuestion%20description%20Question%20description%20Question%20description%0AQuestion%20descriptionQuestion%20descriptionQuestion%20descriptionQuestion%20descriptionQuestion%20description</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Paragraph" x="688" y="243" w="92" h="18" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Author%20-%20Date</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::IconLabel" x="358" y="176" w="-1" h="-1" measuredW="54" measuredH="69" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Answers</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Paragraph" x="842" y="176" w="40" h="74" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Tag%201%20%0ATag%202%0ATag%203%0ATag%204</text>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::SubTitle" x="362" y="300" w="153" h="-1" measuredW="118" measuredH="33" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>2%20answers</text>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::VSplitter" x="362" y="280" w="559" h="-1" measuredW="100" measuredH="12" zOrder="9" locked="false" isInGroup="-1"/>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Paragraph" x="423" y="339" w="490" h="52" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Question%20description%20Question%20description%20Question%20descriptionQuestion%20description%0AQuestion%20descriptionQuestion%20descriptionQuestion%20description%20Question%20description%20Question%20description%0AQuestion%20descriptionQuestion%20descriptionQuestion%20descriptionQuestion%20descriptionQuestion%20description</text>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Paragraph" x="821" y="385" w="92" h="18" measuredW="200" measuredH="140" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Author%20-%20Date</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::ButtonBar" x="520" y="697" w="-1" h="-1" measuredW="245" measuredH="29" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Questions%2C%20Tags%2C%20Unanswered</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::HRule" x="430" y="412" w="483" h="-1" measuredW="100" measuredH="5" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Paragraph" x="423" y="423" w="490" h="52" measuredW="200" measuredH="140" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Question%20description%20Question%20description%20Question%20descriptionQuestion%20description%0AQuestion%20descriptionQuestion%20descriptionQuestion%20description%20Question%20description%20Question%20description%0AQuestion%20descriptionQuestion%20descriptionQuestion%20descriptionQuestion%20descriptionQuestion%20description</text>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::Paragraph" x="821" y="469" w="92" h="18" measuredW="200" measuredH="140" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Author%20-%20Date</text>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::HRule" x="430" y="496" w="483" h="-1" measuredW="100" measuredH="5" zOrder="16" locked="false" isInGroup="-1"/>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::SubTitle" x="422" y="506" w="146" h="-1" measuredW="143" measuredH="33" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Your%20Answer</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Paragraph" x="782" y="512" w="130" h="19" measuredW="200" measuredH="140" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logged%20as%20Username</text>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Canvas" x="426" y="540" w="487" h="70" measuredW="100" measuredH="70" zOrder="19" locked="false" isInGroup="-1"/>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Button" x="425" y="618" w="136" h="35" measuredW="109" measuredH="27" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Submit%20Answer</text>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::SubTitle" x="352" y="38" w="-1" h="-1" measuredW="132" measuredH="33" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Delfos%20Logo</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
